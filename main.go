@@ -15,7 +15,7 @@ func main() {
 
 		f := fib()
 
-		res := &response{Message: "Hello World"}
+		res := &response{Message: "First Go APP, Auto deployment from github to eks through code pipeline"}
 
 		for _, e := range os.Environ() {
 			pair := strings.Split(e, "=")
